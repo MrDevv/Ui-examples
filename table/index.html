@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">		
+    </head>
+    <body>
+		<div class="table-container">
+
+			<span class="caption-container">
+				<span class="table-title">					
+					Clientes
+				</span>
+				<span class="table-row-count"></span>
+			</span>
+			
+			<div class="table">				
+				<table>
+					<thead>
+						<tr>
+							<th class="sticky-left">Nombres</th>
+							<th>Apellidos</th>
+							<th>Edad</th>
+							<th>País</th>
+							<th>Ciudad</th>
+							<th>Calle</th>
+							<th>Telefono</th>
+							<th>DNI</th>
+							<th class="sticky-right">Opciones</th>
+						</tr>
+					</thead>
+					<tbody id="table-rows">
+						<!-- Se generan las filas -->
+					</tbody>							        
+				</table>
+			</div>
+			<div class="pages-container" id="pages-container">
+			</div>
+		</div>
+		<script src="script.js" type="module"></script>
+    </body>
+</html>
